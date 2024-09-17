@@ -8,8 +8,8 @@ RUN npm install
 COPY . .
 ENV API_URL=http://api.myapp.com/
 EXPOSE 3000
-# shell form
-# /bin/sh
+
+# shell form /bin/sh
 # CMD npm start
 
 # exec form
